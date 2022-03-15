@@ -3,18 +3,17 @@
 
 /*
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ *
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {
-	char ch;
+	int i;
 
-	ch = 'a';
+	for (i = 'a'; i <= 'z'; i++)
 
-	while (ch <= 'z')
 	{
-		_putchar(ch);
-		c++;
+		_putchar(i);
 	}
-
 	_putchar('\n');
 }
