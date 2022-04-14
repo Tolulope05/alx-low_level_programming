@@ -45,14 +45,14 @@ prototypes for all types and functions written in the project.
 
 * **3. To be is a to be the value of a variable**
   * [3-print_all.c](./3-print_all.c): C function that prints anything.
-    * Usage: `print_all("ceis", 'H', 0, "lberton");`
+    * Usage: `print_all(", ", 2, "Jay", "Django");`
     * The paramter `format` is a list of types of arguments passed to the function
     (`c`:`char`, `i`:`int`, `f`:`float`, `s`:`char *` (if the string is
     `NULL`, `(nil)` is printed instead))
     * Any other character is ignored.
     * A new line is printed at the end of the function.
 
-* **4. Real programmers can write assembly code in any language**
+<!-- * **4. Real programmers can write assembly code in any language**
   * [100-hello_holberton.asm](./100-hello_holberton.asm): 64-bit assembly program that
   prints `Hello, Holberton`, followed by a new line using only the system call
-  `write` with `int`.
+  `write` with `int`. -->
